@@ -23,9 +23,9 @@ env/
 .DS_Store
 Thumbs.db
 
-# Data files (generated at runtime)
-households.json
-merchant.csv
+# Data files (generated at runtime in project root)
+/households.json
+/merchant.csv
 Redeem*.csv
 
 # Claude Code

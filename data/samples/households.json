@@ -1,0 +1,41 @@
+{
+  "H001": {
+    "household_id": "H001",
+    "name": "Tan Wei Ming",
+    "members": 4,
+    "voucher_claimed": true,
+    "voucher_balance": {
+      "2": 50,
+      "5": 20,
+      "10": 30
+    },
+    "total_remaining": 500,
+    "registration_date": "2025-05-01T09:30:00"
+  },
+  "H002": {
+    "household_id": "H002",
+    "name": "Lim Siew Hoon",
+    "members": 2,
+    "voucher_claimed": true,
+    "voucher_balance": {
+      "2": 20,
+      "5": 5,
+      "10": 10
+    },
+    "total_remaining": 165,
+    "registration_date": "2025-05-15T14:20:00"
+  },
+  "H003": {
+    "household_id": "H003",
+    "name": "Ahmad bin Ibrahim",
+    "members": 5,
+    "voucher_claimed": false,
+    "voucher_balance": {
+      "2": 0,
+      "5": 0,
+      "10": 0
+    },
+    "total_remaining": 0,
+    "registration_date": "2025-06-01T11:00:00"
+  }
+}
