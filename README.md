@@ -28,7 +28,6 @@
 - [Voucher Tranches](#voucher-tranches)
 - [Project Structure](#project-structure)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
@@ -293,11 +292,6 @@ This populates the system with 3 households (unclaimed, partially redeemed, full
 ```
 CDC-Voucher-System/
 ├── .editorconfig              # Editor settings (indent, encoding)
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md      # Bug report template
-│   │   └── feature_request.md # Feature request template
-│   └── PULL_REQUEST_TEMPLATE.md
 ├── data/
 │   └── samples/
 │       ├── README.md          # Sample data documentation
@@ -311,7 +305,6 @@ CDC-Voucher-System/
 ├── persistent_storage.py      # File I/O utilities (JSON + CSV)
 ├── requirements.txt           # Python dependencies
 ├── Makefile                   # Developer convenience commands
-├── CONTRIBUTING.md            # Contribution guidelines
 ├── CHANGELOG.md               # Release history
 ├── LICENSE                    # MIT License
 └── README.md                  # This file
@@ -327,15 +320,6 @@ CDC-Voucher-System/
 | Flet window doesn't open | Display/environment issue | Ensure you're not in a headless environment; try `flet --version` |
 | `FileNotFoundError` for CSV/JSON | First run, no data files yet | This is normal — the server creates files on first write. Or run `make seed` |
 | Stale data after restart | Cached data from previous session | Run `make clean` then `make seed` for a fresh start |
-
-## Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
-
-- Reporting bugs and suggesting features
-- Development setup
-- Code style and commit conventions
-- Pull request process
 
 ## License
 
